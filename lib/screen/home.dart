@@ -108,7 +108,7 @@ class _HomePageState extends State<HomePage> {
               child: Text('Submit'),
               onPressed: () {
                 if (_formKey.currentState.validate()) {
-                  print(_controller1);
+                  print(_controller1.text);
                 }
                 print(_foodChecked);
                 print(_gender);
